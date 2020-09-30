@@ -1,0 +1,63 @@
+<div class="text__conteiner">
+                <b class="suistunable">
+                    Sustainable tiny houses
+                </b>
+                <b class="an__ecological">
+                    An ecological tiny house is constructed from as much sustainable natural materials as possible
+                </b>
+            </div>
+
+            <nav>
+                <div class="watch__film">
+                    <div class="watch__button">
+
+                        <img src="img/watch_button.png" alt="Some icon error">
+
+
+
+                    </div>
+                    <b class="watch__film__text">
+                        Watch the movie
+                    </b>
+                </div>
+            </nav>
+            <div class="header__info">
+                <nav>
+                    <button class="button__conteiner">
+
+                        <div class="button__text">
+                            <b>Contact</b>
+                        </div>
+
+                    </button>
+                </nav>
+                <nav>
+                    <div class="info__menu">
+                        <div class="info__modellen">
+                            <b>Modellen</b>
+                        </div>
+
+
+                        <div class="info__kopen">
+                            <b>Kopen</b>
+                        </div>
+
+                        <div class="info__huren">
+                            <b>Huren</b>
+                        </div>
+
+
+                        <div class="info__nieuws">
+                            <b>Nieuws</b>
+                        </div>
+                    </div>
+                </nav>
+                <div class="logo">
+                    <img src="img/logo.png" alt="Some error">
+
+                </div>
+
+
+
+            </div>
+
