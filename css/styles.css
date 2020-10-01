@@ -1,10 +1,4 @@
-/* *{padding: 0; */
 
-/* margin: 0; */
-
-/* box-sizing: border-box; */
-
-/* } */
 
 button:active {
     border: 1px;
@@ -14,7 +8,10 @@ button:active {
     background: #FFFFFF;
     cursor: pointer;
 }
-
+body{
+    margin: auto;
+   
+}
 button:hover {
     background: #f5f0f0;
 }
@@ -31,7 +28,6 @@ button:hover {
     cursor: pointer;
     border-radius: 4px;
     border: 1px solid #FFFFFF;
-    /* Inside Auto Layout */
     flex: none;
     order: 2;
     align-self: center;
@@ -61,6 +57,7 @@ button:hover {
 }
 
 .header__body {
+  
     height: 600px;
     width: 1000px;
 }
@@ -92,7 +89,7 @@ button:hover {
     left: 653px;
 }
 
-/* Logo / Logo horizontal */
+
 
 .header__info {
     position: relative;
@@ -117,7 +114,6 @@ button:hover {
     right: 0%;
     top: 16.94%;
     bottom: 0%;
-    /* Headers / H2 */
     font-family: Merriweather;
     font-style: normal;
     font-weight: 900;
@@ -132,13 +128,12 @@ button:hover {
     left: 0%;
     right: 58.18%;
     top: -10px;
-    /* Label / Bold */
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 19px;
-    /* identical to box height */
+  
     color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.8;
@@ -303,7 +298,7 @@ button:hover {
     top: 46px;
     cursor: pointer;
     border-radius: 4px;
-    /* Inside Auto Layout */
+  
     order: 2;
     align-self: center;
     flex-grow: 0;
@@ -327,8 +322,7 @@ button:hover {
     font-weight: normal;
     font-size: 15.85px;
     line-height: 26px;
-    /* or 186% */
-    /* Greys / Light grey */
+
     color: #646D70;
 }
 
@@ -338,14 +332,13 @@ button:hover {
     left: 0%;
     right: 32%;
     top: -2px;
-    /* Headers / H2 */
+    
     font-family: Merriweather;
     font-style: normal;
     font-weight: 900;
     font-size: 30px;
     line-height: 38px;
-    /* identical to box height */
-    /* Color / Dark green */
+   
     color: #222F33;
 }
 
@@ -468,14 +461,12 @@ button:hover {
     left: 0%;
     right: 79.45%;
     top: calc(50% - 38px/2 - 65.5px);
-    /* Headers / H2 */
+   
     font-family: Merriweather;
     font-style: normal;
     font-weight: 900;
     font-size: 30px;
     line-height: 38px;
-    /* identical to box height */
-    /* Greys / White */
     color: #FFFFFF;
 }
 
@@ -485,14 +476,13 @@ button:hover {
     right: 52.68%;
     top: 28.99%;
     bottom: 0%;
-    /* Paragraph / Large */
+  
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    /* or 171% */
-    /* Greys / White */
+   
     color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.8;
@@ -500,14 +490,13 @@ button:hover {
 
 .about__text__3 {
     position: relative;
-    /* Paragraph / Large */
+
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    /* or 171% */
-    /* Greys / White */
+
     color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.8;
@@ -555,14 +544,12 @@ button:hover {
     left: 0%;
     right: 0%;
     top: calc(50% - 23px/2 - 35px);
-    /* Headers / H3 */
+    
     font-family: Merriweather;
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
     line-height: 23px;
-    /* identical to box height */
-    /* Color / Dark green */
     color: #222F33;
 }
 
@@ -571,27 +558,29 @@ button:hover {
     left: 0%;
     right: 27.91%;
     top: 29.03%;
+
     bottom: 0%;
-    /* Paragraph / Medium */
+
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 22px;
-    /* or 183% */
-    /* Greys / Light grey */
+
     color: #646D70;
     mix-blend-mode: normal;
     opacity: 0.7;
 }
 
-.colums__text__1 {
+.colums__text {
+    
     position: relative;
     width: 177, 5px;
     height: 362px;
 }
 
 .colums__text__2 {
+   
     left: 200px;
     position: relative;
     width: 177, 5px;
@@ -623,7 +612,7 @@ button:hover {
     height: 93px;
     top: 40px;
     position: relative;
-    /* left: 200px; */
+  
 }
 
 .text__05 {
