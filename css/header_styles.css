@@ -1,0 +1,163 @@
+.social {
+    width: 280px;
+    position: relative;
+    left: 800px;
+    top: -330px;
+    transform: rotate(90deg);
+}
+
+.text__style__social {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.social__list {
+   justify-content: space-between;
+   flex-direction: row;
+    cursor: pointer;
+    height: 14px;
+    display: flex;
+}
+.text__container {
+    position: relative;
+    width: 440px;
+    height: 183px;
+    left: 100px;
+    top: -447px;
+}
+.an__ecological {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 16.94%;
+    bottom: 0%;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.suistunable {
+    position: relative;
+    height: 19px;
+    left: 0%;
+    right: 58.18%;
+    top: -10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+  
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.watch__button {
+
+    width: 62px;
+    height: 72px;
+   
+}
+
+.watch__film__text {
+    height: 16px;
+    /* Label / Medium */
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 10px;
+    color: #FFFFFF;
+    align-self:center;
+}
+
+.watch__film {
+    position: relative;
+    width: 160px;
+    height: 72px;
+    top: -582px;
+    left: 653px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.header__info {
+    position: relative;
+    padding: 0px;
+    width: 109px;
+    height: -134px;
+    left: 100px;
+    top: -860px;
+}
+
+
+.info__menu {
+    position: relative;
+    right:115px ;
+    top: auto;
+
+}
+
+.contact__button{
+    
+    background: #FFFFFF;
+    border: none;
+    outline: none;
+    width: 90px;
+    height: 34px;
+    
+    border: none;
+    border-radius: 4px;
+
+    border: 1px solid #FFFFFF;
+    flex: none;
+    order: 2;
+    
+    
+}
+.logo__start__position {
+    align-self: flex-start;
+}
+.contact__button__text{
+    cursor: pointer;
+
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    
+    color: #606B74;
+}
+.menu__list__center{
+    width: 300px;
+    display: flex;
+    flex-direction:row;
+    align-self: center;
+    justify-content: space-between;
+}
+.menu__list{
+    width: 950px;
+    display: flex;
+    justify-content: space-around;
+}
+.text__style__menu {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}

@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoCabins</title>
 
-    <!-- Roboto font -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
 
-    <!-- My styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/section__first.css">
+    <link rel="stylesheet" href="css/footer_styles.css">
+    <link rel="stylesheet" href="css/header_styles.css">
+    <link rel="stylesheet" href="css/section__second.css">
+    <link rel="stylesheet" href="css/section__third.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -17,19 +20,14 @@
 
     <header>
         <div class="container header__body">
-            <div class=" bitmap__test ">
-
-
-            </div>
-
-
+            <div class=" background__header"></div>
             <nav>
                 <div class="social text__style__social">
 
-                    <ul type=none>
-                        <li class="social__instagram">Instagram</li>
-                        <li class="social__facebook">Facebook</li>
-                        <li class="social__linkedin">Linkedin</li>
+                    <ul type=none class="social__list">
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Linkedin</li>
 
                     </ul>
                 </div>
@@ -49,14 +47,9 @@
 
             <nav>
                 <div class="watch__film">
-                    <div class="watch__button">
 
-                        <img src="img/watch_button.png" alt="Some icon error">
+                    <img src="img/btn__play__svg.svg" class="watch__button" alt="Some icon error">
 
-
-
-
-                    </div>
                     <b class="watch__film__text">
                         Watch the movie
                     </b>
@@ -64,32 +57,27 @@
             </nav>
             <div class="header__info">
                 <nav>
-                    <button class="button__conteiner">
+                    <div class="info__menu">
 
-                        <div class="button__text">
-                            <b>Contact</b>
-                        </div>
+                        <ul type=none class="menu__list">
+                            <img src="img/logo_svg.svg" class="logo__start__position" alt="Some error">
+                            <div class="menu__list__center text__style__menu">
+                                <li>Modellen</li>
+                                <li>Kopen</li>
+                                <li>Huren</li>
+                                <li>Nieuws</li>
+                            </div>
+                            <button class="contact__button">
 
-                    </button>
-                </nav>
-                <nav>
-                    <div class="info__menu text__style__menu ">
+                                <div class="contact_button__text">
+                                    <b>Contact</b>
+                                </div>
 
-                        <ul type=none>
-                            <li class="info__modellen">Modellen</li>
-                            <li class="info__kopen">Kopen</li>
-                            <li class="info__huren">Huren</li>
-                            <li class="info__nieuws">Nieuws</li>
+                            </button>
+
                         </ul>
                     </div>
                 </nav>
-                <div class="logo">
-                    <img src="img/logo_svg.svg" alt="Some error">
-
-                </div>
-
-
-
             </div>
 
 
@@ -98,10 +86,13 @@
     </header>
     <main>
         <section>
-            <div class="container section__background">
+            <div class="container section__background__first">
                 <div class="intro">
-                    <div> <b class="intro__text__1">Durable materials</b></div>
-                    <div> <b class="intro__text__2">All EcoCabins have a high insulation value, are produced with
+                    <div>
+                        <b class="intro__text__first">Durable materials</b>
+                    </div>
+                    <div>
+                        <b class="intro__text__second">All EcoCabins have a high insulation value, are produced with
                             sustainable and / or natural materials where possible and have the "round corners" as a
                             striking external characteristic, made possible by the specific use of materials. The
                             advantages of building with wood are many: wood is light, flexible, insulates well and
@@ -109,44 +100,35 @@
                     </div>
 
                     <nav>
-                        <button class="section__button__conteiner">
+                        <button class="first__section__button__conteiner">
 
-                            <div class="button__text">
+                            <div class="first__section__button__text">
                                 <b>Read more</b>
                             </div>
 
                         </button>
                     </nav>
                 </div>
-                <div class="img__section__1">
-                    <div class="oval">
-                        <img src="img/Oval.png" alt="Some error">
-                    </div>
+                <div class="img__section__first">
 
-
-                    <div class="oval__opacity__1">
-                        <img src="img/Oval.png" alt="Some error">
-                    </div>
-
-
-                    <div class="oval__opacity__2">
-                        <img src="img/Oval.png" alt="Some error">
-                    </div>
-
-                    <div class="oval__opacity__3">
-                        <img src="img/Oval.png" alt="Some error">
+                    <div class="oval__container">
+                        <img src="img/oval__svg.svg" alt="Some error">
+                        <img src="img/oval__svg.svg" class="oval__opacity" alt="Some error">
+                        <img src="img/oval__svg.svg" class="oval__opacity" alt="Some error">
+                        <img src="img/oval__svg.svg" class="oval__opacity" alt="Some error">
                     </div>
 
                 </div>
             </div>
         </section>
         <section>
-            <div class="container section__background__2">
-                <div class="about__text">
+            <div class="container section__background__second">
+                <div class="about__text__section__second">
                     <div>
-                        <b class="about__text__1">Innovative</b>
+                        <b class="about__text__first">Innovative</b>
                     </div>
-                    <div class="about__text__container__2"><b class="about__text__2">Our goal is to continuously further
+                    <div class="about__text__container__second">
+                        <b class="about__text__second">Our goal is to continuously further
                             develop and innovate the
                             EcoCabins, so that the
                             EcoCabins are ultimately 100% sustainable and circular. A condition for this is that the
@@ -154,8 +136,8 @@
                             can enjoy.</b>
                     </div>
 
-                    <div class="about__text__container__3">
-                        <b class="about__text__3">All EcoCabins have a high insulation value, are produced with
+                    <div class="about__text__container__third">
+                        <b class="about__text__third">All EcoCabins have a high insulation value, are produced with
                             sustainable and / or natural
                             materials where possible and have the 'round corners' as a striking external characteristic,
                             made possible by the specific use of materials. The advantages of building.</b>
@@ -164,89 +146,88 @@
 
             </div>
         </section>
-
-
         <section>
-            <div class="container section__background__3">
+            <div class="container section__background__third">
 
-                <div class="img__section__3">
-
-
-                </div>
+                <div class="img__section__third"></div>
                 <div class="usp">
-                    <div class="colums__text">
-                        <div class="text__01">
-                            <div>
-                                <b class="section__main__text">Wood</b>
-                            </div>
+                    <div class="colums">
+                        <div class="colums__text">
+                            <div class="text__01">
+                                <div>
+                                    <b class="section__main__text">Wood</b>
+                                </div>
 
-                            <div>
-                                <b class="section__second__text">De draagconstructies van EcoCabins bestaan uit hout.
-                                    Hout is duurzaam en.</b>
-                            </div>
+                                <div>
+                                    <b class="section__second__text">De draagconstructies van EcoCabins bestaan uit
+                                        hout.
+                                        Hout is duurzaam en.</b>
+                                </div>
 
+                            </div>
+                            <div class="text__03">
+                                <div>
+                                    <b class="section__main__text">Workmanship
+                                    </b>
+                                </div>
+
+                                <div>
+                                    <b class="section__second__text">De draagconstructies van EcoCabins bestaan uit
+                                        hout.
+                                        Hout is duurzaam en.</b>
+                                </div>
+
+                            </div>
+                            <div class="text__05">
+                                <div>
+                                    <b class="section__main__text">Steel base</b>
+                                </div>
+
+                                <div>
+                                    <b class="section__second__text">Het stalen onderstel is sterk zijn en heeft de
+                                        benodigde stijfheid die</b>
+                                </div>
+
+                            </div>
                         </div>
-                        <div class="text__03">
-                            <div>
-                                <b class="section__main__text">Workmanship
-                                </b>
-                            </div>
+                        <div class="colums__text__2">
+                            <div class="text__02">
+                                <div>
+                                    <b class="section__main__text">Glass wool</b>
+                                </div>
 
-                            <div>
-                                <b class="section__second__text">De draagconstructies van EcoCabins bestaan uit hout.
-                                    Hout is duurzaam en.</b>
-                            </div>
+                                <div>
+                                    <b class="section__second__text">De combinatie van glaswol met een houtskelet
+                                        constructie geeft een.</b>
+                                </div>
 
+                            </div>
+                            <div class="text__04">
+                                <div>
+                                    <b class="section__main__text">Triple glass</b>
+                                </div>
+
+                                <div>
+                                    <b class="section__second__text">De combinatie van glaswol met een houtskelet
+                                        constructie geeft een.</b>
+                                </div>
+
+                            </div>
+                            <div class="text__06">
+                                <div>
+                                    <b class="section__main__text">Infrared floor</b>
+                                </div>
+
+                                <div>
+                                    <b class="section__second__text">De vloer wordt opgewarmd middels opgewekte warmte
+                                        uit
+                                        eigen zonne-energie.</b>
+                                </div>
+
+                            </div>
                         </div>
-                        <div class="text__05">
-                            <div>
-                                <b class="section__main__text">Steel base</b>
-                            </div>
 
-                            <div>
-                                <b class="section__second__text">Het stalen onderstel is sterk zijn en heeft de
-                                    benodigde stijfheid die</b>
-                            </div>
-
-                        </div>
                     </div>
-                    <div class="colums__text__2">
-                        <div class="text__02">
-                            <div>
-                                <b class="section__main__text">Glass wool</b>
-                            </div>
-
-                            <div>
-                                <b class="section__second__text">De combinatie van glaswol met een houtskelet
-                                    constructie geeft een.</b>
-                            </div>
-
-                        </div>
-                        <div class="text__04">
-                            <div>
-                                <b class="section__main__text">Triple glass</b>
-                            </div>
-
-                            <div>
-                                <b class="section__second__text">De combinatie van glaswol met een houtskelet
-                                    constructie geeft een.</b>
-                            </div>
-
-                        </div>
-                        <div class="text__06">
-                            <div>
-                                <b class="section__main__text">Infrared floor</b>
-                            </div>
-
-                            <div>
-                                <b class="section__second__text">De vloer wordt opgewarmd middels opgewekte warmte uit
-                                    eigen zonne-energie.</b>
-                            </div>
-
-                        </div>
-                    </div>
-
-
                 </div>
             </div>
         </section>
@@ -254,12 +235,16 @@
 
     </main>
     <footer class="container container__footer">
-        <img src="img/logo_svg.svg" class="logo__footer" alt="Some error">
-        <b class="email">doskochynska83@gmail.com</b>
-      
-        <b class="privacy">Privacybeleid</b>
-        <b class="cookies">Cookies</b>
+        <div class="footer__element">
+            <b class="email">info@eco-cabins.com</b>
+            <img src="img/logo_svg.svg" alt="Some error">
+          
+           <div class="cookies__privacy">
+                <b class="cookies">Cookies</b>
+                <b class="privacy">Privacybeleid</b>
+            </div>
 
+        </div>
 
     </footer>
 
