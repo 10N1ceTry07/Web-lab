@@ -1,3 +1,4 @@
+@media only screen and (min-width:1280px) {
 .about__text__section__second {
     position: relative;
     width: 803px;
@@ -62,4 +63,5 @@
     height: 183px;
     left: 442px;
     top: -181px;
+}
 }

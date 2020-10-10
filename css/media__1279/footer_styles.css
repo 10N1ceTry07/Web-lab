@@ -1,27 +1,38 @@
+@media only screen and (min-width:1280px) {
 .container__footer {
     background: #26353B;
     width: 1000px;
     height: 92px;
 }
 
-.footer__element{
- 
+.footer__element {
+    position: relative;
+    left: 20px;
     height: 92px;
     width: 1000px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-between;
     flex-direction: row;
 }
-.cookies__privacy{
+
+.cookies__privacy {
     width: 170px;
-   display: flex;
-    align-self:center;
+    display: flex;
+    align-self: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
 }
 
 .email {
- 
     width: 120px;
-    align-self:center;
+    align-self: center;
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
@@ -33,39 +44,13 @@
 }
 
 
-.logo__footer {
- 
-    width: 630px;
-    height: 26px;
-   
-}
 
 .privacy {
-  width: 85px;
+    width: 85px;
     height: 14px;
-
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 14px;
-    text-align: right;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-    opacity: 0.6;
 }
 
 .cookies {
-
     height: 14px;
-  
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 14px;
-    text-align: right;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-    opacity: 0.6;
+}
 }
